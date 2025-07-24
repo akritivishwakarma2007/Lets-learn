@@ -1,0 +1,89 @@
+/* Selection component styling */
+.selection-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--background-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.selection-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.selection-option-card {
+  flex: 1 1 calc(33% - 30px); /* Adjust for 3 columns with gap */
+  max-width: 180px;
+  padding: 20px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.selection-option-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.selection-option-card.selected {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.selection-option-card.selected:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+}
+
+.selection-option-card h3 {
+  margin-top: 0;
+  color: inherit; /* Inherit color from parent */
+}
+
+.selection-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.selection-buttons button {
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.selection-buttons button.next-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.selection-buttons button.next-button:hover {
+  background-color: var(--secondary-color);
+}
+
+.selection-buttons button.back-button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+}
+
+.selection-buttons button.back-button:hover {
+  background-color: #5a6268;
+}

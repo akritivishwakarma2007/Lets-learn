@@ -1,0 +1,84 @@
+/* User Profile page styling */
+.profile-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--background-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-header h2 {
+  color: var(--primary-color);
+}
+
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.profile-section h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+}
+
+.profile-info span {
+  font-weight: bold;
+}
+
+.profile-form .form-group {
+  margin-bottom: 15px;
+}
+
+.profile-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.profile-form .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.profile-form .form-submit-button {
+  width: auto;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.profile-quiz-history .quiz-history-item {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: var(--background-color);
+}
+
+.profile-quiz-history .quiz-history-item h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.profile-quiz-history .quiz-history-item p {
+  margin: 0;
+  font-size: 0.9em;
+}

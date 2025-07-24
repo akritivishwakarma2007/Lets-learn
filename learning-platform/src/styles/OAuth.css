@@ -1,0 +1,54 @@
+/* OAuth button styling */
+.oauth-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.oauth-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.oauth-button:hover {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+}
+
+.oauth-button.google {
+  background-color: #db4437;
+  color: white;
+  border-color: #db4437;
+}
+
+.oauth-button.google:hover {
+  background-color: #c23321;
+  border-color: #c23321;
+}
+
+.oauth-button.github {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+}
+
+.oauth-button.github:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.oauth-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
